@@ -1,7 +1,8 @@
-
-.top-header {
-    height: 71px;
-    padding: 0 115px;
+.BackgrOrange {
+    background: #f27125;
+}
+.col-sm-6.login {
+    text-align: right;
 }
 
 .logo {
@@ -50,7 +51,6 @@
 }
 /*  */
 .menu{
-    background-color: #f27125;
     height: 52px;
     width: 100%;
     clear: left;
@@ -58,13 +58,13 @@
 .menu ul{
     line-height: 52px;
     margin: 0;
-    padding: 0 115px;
+    padding: 0;
 }
 .menu ul li{
     display: inline-block;
 }
 .menu ul li.pd70{
-    padding-right: 68px;
+    padding-right: 65px;
 }
 
 .menu ul li a{
@@ -127,17 +127,14 @@
     margin: 0;
     padding: 0;
 }
-.container.banner .row .col-12 {
+.container.banner .row .col-sm-12 {
     height: 495px;
     display: block;
-    position: relative;
     margin-top: 18px;
+    padding: 0;
 }
 
-.container.banner .row .col-12 img {
-    position: absolute;
-    top: 0;
-    left: 0;
+.container.banner .row .col-sm-12 img {
     width: 100%;
     height: 100%;
 }
@@ -151,7 +148,7 @@
     padding-left: 30px;
 }
 
-.container.banner .row .col-12 .banner-fpteducation img {
+.container.banner .row .col-sm-12 .banner-fpteducation img {
     position: absolute;
     z-index: 1000;
     width: 350px;
@@ -159,21 +156,28 @@
     top: 240px;
 }
 footer {
+    margin-top: 50px;
+}
+.background-footer {
+    height: 16px;
+    width: 100%;
+    background: #F27125;
+}
+.Content-footer {
     background: #333333;
-    height: 471px;
     color: white;
     font-size: 14px;
     font-weight: 700;
     font-style: normal;
     padding-top: 45px;
-    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 30px;
 }
-
-footer .container .row .col-4 img {
+footer .container .row .col-sm-4 img {
     width: 296px;
     height: 59px;
 }
-.col-4.Copyright p {
+.col-sm-4.Copyright p {
     margin-top: 35px;
 }
 
@@ -182,7 +186,7 @@ footer .container .row .col-4 img {
     color: #f27125;
     font-weight: 700;
 }
-footer .container .row .col-12 {
+footer .container .row .col-sm-12 {
     border-top: 1px solid;
     margin-top: 100px;
     text-align: center;
@@ -344,11 +348,11 @@ footer .container .row .col-12 {
     padding: 5px 20px;
     justify-content: space-between;
 }
-.container.Scholarship .row .col-7 {
+.container.Scholarship .row .col-sm-7 {
     margin: 0;
     padding: 0;
 }
-.col-6.pd0 {
+.col-sm-6.pd0 {
     padding: 0;
 }
 .Info-Student .row.pd10 {
@@ -364,7 +368,7 @@ footer .container .row .col-12 {
     width: 186px;
 }
 
-.container.Scholarship .row .col-7 p {
+.container.Scholarship .row .col-sm-7 p {
     margin: 10px 0;
     font-size: 14px;
     text-align: center;
@@ -445,31 +449,31 @@ button.btnCCCD {
     margin: 0;
     padding: 0;
 }
-.Info-Student .col-6.pg0 {
+.Info-Student .col-sm-6.pg0 {
     padding: 0;
     margin: 0;
 }
 
-.Info-Student .col-6.pg0 p {
+.Info-Student .col-sm-6.pg0 p {
     font-size: 14px;
 }
-.Info-Student .Signin .col-4 {
+.Info-Student .Signin .col-sm-4 {
     margin: 0;
     padding: 0;
 }
 
-.Info-Student .Signin .col-4 h5 {
+.Info-Student .Signin .col-sm-4 h5 {
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
     padding: 15px;
     border-bottom: 1px solid #BDBDBD;
 }
-.col-4.border-lf-rg {
+.col-sm-4.border-lf-rg {
     border-left: 1px solid #BDBDBD;
     border-right: 1px solid #BDBDBD;
 }
-.Info-Student .Signin .col-4 .form-check {
+.Info-Student .Signin .col-sm-4 .form-check {
     padding-left: 35px;
     padding-bottom: 15px;
 }
@@ -482,14 +486,14 @@ button.btnCCCD {
     padding: 0;
 }
 
-.Info-Student .col-4.pd0-mg0 {
+.Info-Student .col-sm-4.pd0-mg0 {
     margin: 0;
     padding: 0;
 }
 
-.Info-Student .col-4.pd0-mg0 p {margin-bottom: 10px;}
+.Info-Student .col-sm-4.pd0-mg0 p {margin-bottom: 10px;}
 
-.Info-Student .col-8.pd0-mg0 p{
+.Info-Student .col-sm-8.pd0-mg0 p{
     margin-bottom: 10px;
 }
 .Cost {
@@ -498,29 +502,29 @@ button.btnCCCD {
     border-radius: 10px;
     padding-bottom: 30px;
 }
-.Cost .row .col-3.bdbot{
+.Cost .row .col-sm-3.bdbot{
     border-bottom: 1px solid #BDBDBD;
     padding: 0px;
 }
-.Cost .row .col-3 p{
+.Cost .row .col-sm-3 p{
     font-size: 16px;
     font-weight: 700;
     padding: 18px 0 0 18px;
 }
-.Cost .row .col-2.bdbot{
+.Cost .row .col-sm-2.bdbot{
     border-bottom: 1px solid #BDBDBD;
     padding: 0px;
 }
-.Cost .row .col-2 p{
+.Cost .row .col-sm-2 p{
     font-size: 16px;
     font-weight: 700;
     padding-top: 18px;
 }
-.Cost .row .col-7.bdbot{
+.Cost .row .col-sm-7.bdbot{
     border-bottom: 1px solid #BDBDBD;
     padding: 0px;
 }
-.Cost .row .col-7 a{
+.Cost .row .col-sm-7 a{
     font-size: 14px;
     font-weight: 400;
 }
@@ -650,3 +654,206 @@ button.btn.btn-outline-danger {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   }
 
+/* Responsive */
+
+/* Mobile */
+@media only screen and (max-width: 480px){
+    .login {
+        /* float: right; */
+        padding-top: 0;
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+    .top-header {
+        height: 71px;
+         padding: 0 !important; 
+        position: relative;
+    }
+    .menu{
+        background-color: #f27125;
+        height: 56%;
+        width: 100%;
+        clear: left;
+    }
+    .menu ul{
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .menu ul li.pd70{
+        padding-right: 0;
+    }
+    .menu ul li{
+        display: block;
+    }
+    .col-sm-4.nav-nav-bar {
+        display: none;
+    }
+    .col-sm-8.main {max-width: 100% !important;padding: 0 2%;}
+    .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -15px;
+        transform: scale(0.6);
+        padding-right: 25px;
+    }
+    .border-arrow {
+        width: 55px;
+        border-top: 2px dotted #BDBDBD;
+        position: absolute;
+        top: 29%;
+        left: 109%;
+        transform: translate(-50%, -50%) scale(0.55);
+    }
+    .pic-user-down {
+        text-align: center;
+        padding-left: 45px;
+    }
+    .name-profile {
+        font-size: 14px;
+        text-align: center;
+        font-weight: normal;
+        font-style: normal;
+        padding-left: 22px;
+    }
+    .border-Upload img {
+        width: 50px;
+    }
+    .border-Upload {
+        height: 80px;
+        text-align: center;
+        padding: 18px;
+        border: 1px solid #BDBDBD;
+        border-radius: 8px;
+        background: #D5DCE6;
+        width: 110px;
+    }
+    
+    .container.TestScholarship .center .border-Upload {
+        margin-left: 20px;
+    }
+    button.btnUploadPic {
+        background: #0066B2;
+        border: none;
+        color: white;
+        font-size: 14px;
+        border-radius: 5px;
+        text-align: center;
+        width: 120px;
+        padding: 0;
+        margin: 0;
+    }
+    .container.TestScholarship .btnUploadSchoolRank {
+        font-size: 14px;
+        margin-top: 32px;
+        border: none;
+        background: #0066B2;
+        color: white;
+        border-radius: 3px;
+        width: 108px;
+    }
+    .PictureCCCD {
+        width: 195px;
+        height: 125px;
+        border: 1px solid #BDBDBD;
+        position: relative;
+        background: #D5DCE6;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+    button.btnCCCD {
+        position: absolute;
+        bottom: 45px;
+        right: 5px;
+        width: 86px;
+        height: 32px;
+        background: #0066B2;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .PictureCCCD i {font-size: 55px;margin-top: 20px;margin-left: 30px;color: #828282;}
+    .Cost01 .bdCost01 {
+        width: 85px;
+        height: 215px;
+        background: #D5DCE5;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost01 i {
+        text-align: center;
+        font-size: 70px;
+        color: #828282;
+        margin-top: 68px;
+        margin-left: 12px;
+    }
+    .Cost01 .bdCost02 {
+        width: 90px;
+        height: 216px;
+        background: #D5DCE5;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost02 img {
+        width: 61px;
+        height: 55px;
+        margin-top: 80px;
+        margin-left: 15px;
+    }
+    .Cost .row .col-sm-2 p{
+        font-size: 16px;
+        font-weight: 700;
+        padding-top: 18px;
+        padding-left: 15px;
+    }
+    .Cost01 p {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100px !important;
+    }
+    button.btnUploadCost01 {
+        margin-left: 0;
+        background: #0066B2;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 6px;
+        width: 86px;
+        height: 25px;
+    }
+    .Cost01 .btnUploadCost02 {
+        background: #0066B2;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        width: 90px;
+        height: 25px;
+        margin-top: 4px;
+    }
+    footer .container .row .col-sm-4 img {
+        width: 155px;
+        height: 60px;
+    }
+    .col-sm-4.Copyright p {
+        margin-top: 10px;
+    }
+    footer {
+        background: #333333;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        font-style: normal;
+        padding-top: 45px;
+        margin-top: 50px;
+    }
+}
