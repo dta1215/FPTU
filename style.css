@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
 .BackgrOrange {
     background: #f27125;
 }
@@ -855,5 +857,35 @@ button.btn.btn-outline-danger {
         font-style: normal;
         padding-top: 45px;
         margin-top: 50px;
+    }
+
+
+    /* Other Branchs */
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        overflow-x: hidden;
+    }
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .col-sm-8.main {
+        max-width: 100% !important;
+        padding: 0 1%;
+    }
+
+    .Place.flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: initial;
+        padding: 5px 5px;
+        text-align: left;
+    }
+    .flex-container {
+        margin-top: 0px;
+        transform: scale(1);
     }
 }
